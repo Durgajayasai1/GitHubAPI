@@ -44,7 +44,7 @@ class _UserRepoState extends State<UserRepo> {
                       "pubspec.yaml",
                       style: GoogleFonts.poppins(),
                     ),
-                    onTap: () {},
+                    onTap: () => Navigator.pushNamed(context, '/source_code'),
                   ),
                   ListTile(
                     leading: const FaIcon(
